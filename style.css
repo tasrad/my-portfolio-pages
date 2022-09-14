@@ -1,6 +1,10 @@
 :root{
     --text-center: center;
     --primary-color: #1e6f5c;
+    --border-button: 2px solid #1e6f5c;
+    --padding-button: 10px 20px;
+    --radius-button: 5px;
+    --margin-auto: 0 auto;
 }
 
 body{
@@ -32,8 +36,17 @@ h2{
 }
 .introduce{
     display: block;
-    margin: 0 auto;
+    margin:var(--margin-auto);
     padding: 10px 50px;
     font-size: 24px;
     width: 400;
+}
+.check-out-works{
+    display: block;
+    margin: var(--margin-auto);
+    color: white;
+    background-color: var(--primary-color);
+    border: var(--border-button);
+    padding: var(--padding-button);
+    border-radius: var(--radius-button);
 }
