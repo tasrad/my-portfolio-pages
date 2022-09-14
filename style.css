@@ -6,16 +6,21 @@
 body{
     background-color: azure;
 }
+.hero{
+    margin: 50px auto;
+   
+}
 h1{
     text-align: var(--text-center);
-    color: white;
-    background-color: var(--primary-color);
+    color: var(--primary-color);
+    width: bold;
+   
 }
 h3{
     text-align: var(--text-center);
     color: var(--primary-color);
 }
-i{
-    font-size: 100px;
-    
+.my-photo{
+    vertical-align: middle;
+    margin: 0 auto;
 }
