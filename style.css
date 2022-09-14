@@ -4,7 +4,11 @@
 }
 
 body{
-    background-color: azure;
+    background-color: rgba(240, 255, 255, 0.377);
+}
+.name{
+    font-family: 'Ultra', serif;
+    color: var(--primary-color);
 }
 .hero{
     margin: 50px auto;
@@ -13,14 +17,23 @@ body{
 h1{
     text-align: var(--text-center);
     color: var(--primary-color);
-    width: bold;
-   
+    width: 900;
+    line-height: 2;
+    font-size: 68px;
 }
-h3{
+h2{
     text-align: var(--text-center);
     color: var(--primary-color);
 }
 .my-photo{
     vertical-align: middle;
+    margin: 20px auto;
+    
+}
+.introduce{
+    display: block;
     margin: 0 auto;
+    padding: 10px 50px;
+    font-size: 24px;
+    width: 400;
 }
