@@ -1,0 +1,17 @@
+:root{
+    --text-center: center;
+    --primary-color: #1e6f5c;
+}
+
+body{
+    background-color: azure;
+}
+h1{
+    text-align: var(--text-center);
+    color: white;
+    background-color: var(--primary-color);
+}
+h3{
+    text-align: var(--text-center);
+    color: var(--primary-color);
+}
