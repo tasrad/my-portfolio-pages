@@ -43,7 +43,8 @@ h2{
     display: block;
     margin:var(--margin-auto);
     padding: 10px 50px;
-    font-size: 24px;
+    font-size: 20px;
+    opacity: 0.9;
     width: 400;
 }
 .check-out-works{
