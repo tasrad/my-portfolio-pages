@@ -5,18 +5,23 @@
     --padding-button: 10px 20px;
     --radius-button: 5px;
     --margin-auto: 0 auto;
+    --color-hover: rgb(31, 103, 31);
 }
 
 body{
-    background-color: rgba(240, 255, 255, 0.377);
+    background-color: rgba(240, 255, 255, 0.059);
 }
 .name{
     font-family: 'Ultra', serif;
     color: var(--primary-color);
 }
+.name:hover{
+    color: var(--color-hover);
+    text-decoration: underline;
+}
 .hero{
     margin: 50px auto;
-   
+   padding: 0 100px;
 }
 h1{
     text-align: var(--text-center);
@@ -49,4 +54,45 @@ h2{
     border: var(--border-button);
     padding: var(--padding-button);
     border-radius: var(--radius-button);
+}
+.check-out-works:hover{
+    color: var(--primary-color);
+    background-color: rgba(240, 255, 255, 0.059);
+    cursor: pointer;
+    font-weight: 600;
+}
+.open-code-link{
+    color: var(--primary-color);
+    font-weight: 700;
+    text-decoration: underline;
+}
+.open-code-link:hover{
+    color: var(--color-hover);
+    text-decoration: none;
+}
+i{
+    font-size: 30px;
+    padding: 0 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+i:hover{
+    color: var(--color-hover);
+}
+a{
+    text-decoration: none;
+}
+@media (max-width: 575.98px) {
+    .hero{
+        padding: 0;
+    }
+    h1{
+        font-size: 48px;
+        line-height: normal;
+        padding: 10px;
+    }
+    .introduce{
+        font-size: 20px;
+    }
+
 }
