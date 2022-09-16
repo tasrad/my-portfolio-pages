@@ -61,6 +61,15 @@ h2{
     cursor: pointer;
     font-weight: 600;
 }
+.link-btn{
+color: white;
+}
+.link-btn:hover{
+    color: var(--primary-color);
+    background-color: rgba(240, 255, 255, 0.059);
+    cursor: pointer;
+    font-weight: 600;   
+}
 .open-code-link{
     color: var(--primary-color);
     font-weight: 700;
