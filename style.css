@@ -57,19 +57,15 @@ h2{
     border-radius: var(--radius-button);
 }
 .check-out-works:hover{
-    color: var(--primary-color);
-    background-color: rgba(240, 255, 255, 0.059);
-    cursor: pointer;
-    font-weight: 600;
+    background-color: var(--color-hover);
 }
 .link-btn{
 color: white;
+font-weight: 600; 
 }
 .link-btn:hover{
-    color: var(--primary-color);
-    background-color: rgba(240, 255, 255, 0.059);
-    cursor: pointer;
-    font-weight: 600;   
+   color: white;
+    cursor: pointer;  
 }
 .open-code-link{
     color: var(--primary-color);
