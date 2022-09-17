@@ -88,6 +88,21 @@ i:hover{
 a{
     text-decoration: none;
 }
+
+
+h3{
+    color: var(--primary-color);
+}
+.my-story{
+    margin: 50px 250px;
+    text-align:var(--text-center);
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 0.9;
+
+}
+
+
 @media (max-width: 575.98px) {
     .hero{
         padding: 0;
