@@ -103,7 +103,7 @@ h3{
 .technologies-and-tools{
     display: block;
     margin: var(--margin-auto);
-    width: 800px;
+    width: 65%;
 }
 .icon{
     display: block;
@@ -126,7 +126,7 @@ h3{
         font-size: 20px;
     }
     .my-story{
-        margin: 20px 50px;
+        margin: 20px 5px;
     }
 
 }
