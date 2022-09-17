@@ -100,7 +100,17 @@ h3{
     font-weight: 400;
     opacity: 0.9;
 }
-
+.technologies-and-tools{
+    display: block;
+    margin: var(--margin-auto);
+    width: 800px;
+}
+.icon{
+    display: block;
+    margin: var(--margin-auto);
+    max-width: 80px;
+    padding: 10px;
+}
 
 
 @media (max-width: 768px) {
