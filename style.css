@@ -111,6 +111,30 @@ h3{
     max-width: 80px;
     padding: 10px;
 }
+.works{
+margin: 50px auto;
+}
+.card{
+    display: inline-block;
+    border: var(--border-button);
+    border-radius: var(--radius-button);
+    vertical-align: top;
+    margin: 10px 50px;
+}
+.card-body{
+    border-top: var(--border-button);
+}
+h5{
+    color: var(--primary-color);
+    font-family: 'Ultra', serif;
+}
+.skill{
+    display: inline-block;
+    margin: 5px auto;
+    border: var(--border-button);
+    padding: 7px 14px;
+    border-radius: var(--radius-button);
+}
 
 
 @media (max-width: 768px) {
@@ -128,5 +152,8 @@ h3{
     .my-story{
         margin: 20px 5px;
     }
-
+    .card{
+        margin:var(--margin-auto);   
+    width: 15em;
+ }
 }
