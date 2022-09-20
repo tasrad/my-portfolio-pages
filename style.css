@@ -6,6 +6,7 @@
     --radius-button: 5px;
     --margin-auto: 0 auto;
     --color-hover: rgb(31, 103, 31);
+    --transition: all 100ms ease-in-out ;
 }
 
 body{
@@ -14,6 +15,7 @@ body{
 .name{
     font-family: 'Ultra', serif;
     color: var(--primary-color);
+    transition: var(--transition);
 }
 .name:hover{
     color: var(--color-hover);
@@ -55,6 +57,7 @@ h2{
     border: var(--border-button);
     padding: var(--padding-button);
     border-radius: var(--radius-button);
+    transition: var(--transition);
 }
 .check-out-works:hover{
     background-color: var(--color-hover);
@@ -62,6 +65,7 @@ h2{
 .link-btn{
 color: white;
 font-weight: 600; 
+transition: var(--transition);
 }
 .link-btn:hover{
    color: white;
@@ -71,6 +75,7 @@ font-weight: 600;
     color: var(--primary-color);
     font-weight: 700;
     text-decoration: underline;
+    transition: var(--transition);
 }
 .open-code-link:hover{
     color: var(--color-hover);
@@ -81,6 +86,7 @@ i{
     padding: 0 10px;
     color: var(--primary-color);
     text-decoration: none;
+    transition: var(--transition);
 }
 i:hover{
     color: var(--color-hover);
@@ -140,6 +146,7 @@ h5{
     color: var(--primary-color);
     font-weight: 400;
     text-decoration: underline;
+    transition: var(--transition);
 }
 .contact-link:hover{
     color: var(--color-hover);
