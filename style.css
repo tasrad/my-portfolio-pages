@@ -136,6 +136,15 @@ h5{
     padding: 7px 14px;
     border-radius: var(--radius-button);
 }
+.contact-link{
+    color: var(--primary-color);
+    font-weight: 400;
+    text-decoration: underline;
+}
+.contact-link:hover{
+    color: var(--color-hover);
+    text-decoration: none;
+}
 
 
 @media (max-width: 768px) {
@@ -148,6 +157,8 @@ h5{
         padding: 10px;
     }
     .introduce{
+        margin: var(--margin-auto);
+        padding: 0;
         font-size: 20px;
     }
     .my-story{
