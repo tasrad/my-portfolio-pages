@@ -113,13 +113,14 @@ h3{
 }
 .works{
 margin: 50px auto;
+max-width: 75%;
 }
 .card{
     display: inline-block;
     border: var(--border-button);
     border-radius: var(--radius-button);
     vertical-align: top;
-    margin: 10px 50px;
+    margin: 10px 10px;
 }
 .card-body{
     border-top: var(--border-button);
