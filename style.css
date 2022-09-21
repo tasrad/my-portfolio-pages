@@ -175,6 +175,9 @@ h5{
         margin:var(--margin-auto);   
         width: 15em;
     }
+   
+}
+@media (max-width: 992px){
     .card-img-top{
         display: none;
     }
