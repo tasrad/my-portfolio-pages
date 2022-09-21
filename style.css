@@ -171,10 +171,14 @@ h5{
     .my-story{
         margin: 20px 5px;
     }
+    .works{
+        margin: 0 auto;
+
+    }
     .card{
         margin:var(--margin-auto);   
-        width: 15em;
-        margin: 10px 0 auto;
+        max-width: 19em;
+        margin: 5px 0 0;
     }
     .card-img-top{
         display: none;
