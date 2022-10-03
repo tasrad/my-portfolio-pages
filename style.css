@@ -121,6 +121,12 @@ h3{
 margin: 50px auto;
 max-width: 75%;
 }
+.photo-works{
+    background-color: #f5f2fe;
+}
+.photo-project{
+    vertical-align: middle;
+}
 .card{
     display: inline-block;
     border: var(--border-button);
